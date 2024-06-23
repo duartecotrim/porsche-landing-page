@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glegoo:wght@400;700&display=swap');
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -68,7 +70,7 @@ menu a:visited {
     border-radius: 1px;
     transition: .3s;
     color: #fafafa;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gideon Roman', serif;
 }
 
 main {
@@ -81,6 +83,7 @@ section {
 
 section img {
     width: 100%;
+    height: 80%;
 }
 
 #inicio {
@@ -89,22 +92,210 @@ section img {
 }
 
 #inicio h1 {
-    font-size: 40px;
+    font-size: 80px;
     width: 300px;
     height: 100px;
     position: absolute;
     top: 100px;
     left: 100px;
     color: #fafafa;
-    font-family: "Glegoo", serif;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0px 0px 15px black;
 }
 
 #inicio h2 {
+    font-size: 40px;
     width: 250px;
-    height: 100px;
+    height: 150px;
     position: absolute;
-    top: 100px;
+    top: 80px;
     right: 100px;
     color: #fafafa;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0px 0px 15px black;
+}
+
+#inicio span {
+    color: #ff0000c0;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0px 0px 15px black;
+}
+
+#inicio h3 {
+    font-size: 35px;
+    width: 230px;
+    height: 50px;
+    position: absolute;
+    top: 680px;
+    left: 580px;
+    color: #fafafa;
+    font-family: "Bebas Neus", sans-serif;
+    text-shadow: 0px 0px 15px #19191a;
+}
+
+.txt-main {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: linear-gradient(right, white, grey);
+}
+
+.txt1 h1{
     font-family: "Glegoo", serif;
+    font-size: 23px;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: #020202;
+    
+}
+
+.txt1 h1 span{
+    font-family: "Glegoo", serif;
+    color: #19191a;
+    font-style: italic;
+}
+
+.txt2 h2{
+    font-family: "Glegoo", serif;
+    font-size: 18px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    color: #020202;
+    
+}
+
+.txt-main img{
+    width: 70px;
+    height: 90px;
+    margin-top: 120px;
+    margin-left: 45%;
+}
+
+
+.galeria{
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.733) 30%, black 50%);
+}
+.thumbs {
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.thumb {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+.thumb:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #020202;
+}
+.thumb img {
+    width: 100%;
+    height: 150px;
+}
+
+.large {
+    width: 630px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.img-large {
+    width: 600px;
+}
+
+.img-large img {
+    width: 100%;
+    box-shadow: 0 0 10px #010101c0;
+    border-radius: 5px;
+}
+
+.thumb img {
+    box-shadow: 0 0 10px #010101c0;
+    border-radius: 5px;
+}
+
+.galeria-name {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.galeria-name h2 {
+    font-size: 35px;
+    font-family: "Glegoo", serif;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+}
+
+#carros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.turbo {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.turbo img{
+    width: 90%;
+    height: 180px;
+    margin-top: 20px;
+}
+.gt3 {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.gt3 img{
+    width: 90%;
+    height: 180px;
+    margin-top: 20px;
+}
+.spyder {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.spyder img{
+    width: 90%;
+    height: 180px;
+    margin-top: 20px;
+}
+
+#carros h1 {
+    width: 120px;
+    height: 30px;
+    left: 580px;
 }
