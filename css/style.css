@@ -1,6 +1,3 @@
-
-
-
 * {
     padding: 0;
     margin: 0;
@@ -74,13 +71,12 @@ menu a:visited {
     overflow: hidden;
     cursor: pointer;
     transition: .5s;
-    
 }
 
-menu a:hover{
+menu a:hover {
     color: #505053;
-    
 }
+
 main {
     width: 100%;
 }
@@ -137,7 +133,7 @@ section img {
     top: 680px;
     left: 560px;
     color: #fafafa;
-    font-family: "Gideon Roman", serif;
+    font-family: "Bebas Neue", sans-serif;
     text-shadow: 0px 0px 15px #19191a;
 }
 
@@ -148,7 +144,7 @@ section img {
     background: linear-gradient(right, white, grey);
 }
 
-.txt1 h1{
+.txt1 h1 {
     font-family: "Glegoo", serif;
     font-size: 23px;
     width: 400px;
@@ -157,16 +153,15 @@ section img {
     top: 50px;
     left: 100px;
     color: #020202;
-    
 }
 
-.txt1 h1 span{
+.txt1 h1 span {
     font-family: "Glegoo", serif;
     color: #19191a;
     font-style: italic;
 }
 
-.txt2 h2{
+.txt2 h2 {
     font-family: "Glegoo", serif;
     font-size: 18px;
     width: 400px;
@@ -175,24 +170,23 @@ section img {
     top: 50px;
     right: 100px;
     color: #020202;
-    
 }
 
-.txt-main img{
+.txt-main img {
     width: 70px;
     height: 90px;
     margin-top: 120px;
     margin-left: 45%;
 }
 
-
-.galeria{
+.galeria {
     margin: 0 auto;
     display: flex;
     gap: 80px;
     align-items: center;
     background-image: linear-gradient(to right, rgba(128, 128, 128, 0.733) 30%, black 50%);
 }
+
 .thumbs {
     width: 630px;
     display: flex;
@@ -201,7 +195,6 @@ section img {
     align-items: center;
     justify-content: center;
     margin: 50px;
-    
 }
 
 .thumb {
@@ -212,10 +205,12 @@ section img {
     transition: .5s;
     border-radius: 10px;
 }
+
 .thumb:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 10px #020202;
 }
+
 .thumb img {
     width: 100%;
     height: 150px;
@@ -251,6 +246,7 @@ section img {
     position: relative;
     justify-content: center;
 }
+
 .galeria-name h2 {
     font-size: 35px;
     font-family: "Glegoo", serif;
@@ -267,12 +263,12 @@ section img {
     position: relative;
 }
 
-
 .turbo {
     width: 300px;
-    height: 500px;
+    height: 450px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 100px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
@@ -280,32 +276,53 @@ section img {
     cursor: pointer;
     transition: .5s;
 }
+
 .turbo:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 10px #020202;
 }
-.turbo img{
+
+.turbo img {
     width: 90%;
     height: 170px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px black;
+    margin-top: 20px;
 }
-.turbo h1{
+
+.turbo h1 {
     width: 140px;
     height: 30px;
     font-family: "Glegoo", serif;
 }
 
-.turbo p{
-    width: 150px;
+.turbo p {
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    font-family: "Glegoo", serif;
+}
+
+.turbo h3 {
+    width: 160px;
+    height: 22px;
+    font-family: "Glegoo", serif;
+    margin-top: 20px;
+}
+
+.turbo h2 {
+    width: 160px;
     height: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
 }
 
 .gt3 {
     width: 300px;
-    height: 500px;
+    height: 450px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 100px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
@@ -313,37 +330,67 @@ section img {
     cursor: pointer;
     transition: .5s;
 }
+
 .gt3:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 10px #020202;
 }
 
-.gt3 img{
+.gt3 img {
     width: 90%;
     height: 170px;
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px black;
-    
 }
+
+.gt3 h1 {
+    width: 140px;
+    height: 30px;
+    font-family: "Glegoo", serif;
+}
+
+.gt3 p {
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    font-family: "Glegoo", serif;
+}
+
+.gt3 h3 {
+    width: 160px;
+    height: 22px;
+    font-family: "Glegoo", serif;
+    margin-top: 20px;
+}
+
+.gt3 h2 {
+    width: 160px;
+    height: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+}
+
 .spyder {
     width: 300px;
-    height: 500px;
+    height: 450px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 100px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
     overflow: hidden;
     cursor: pointer;
     transition: .5s;
-
 }
+
 .spyder:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 10px #020202;
 }
-.spyder img{
+
+.spyder img {
     width: 90%;
     height: 170px;
     margin-top: 20px;
@@ -351,7 +398,38 @@ section img {
     box-shadow: 0px 0px 5px black;
 }
 
-#carros h2{
+.spyder h1 {
+    width: 140px;
+    height: 30px;
+    font-family: "Glegoo", serif;
+}
+
+.spyder p {
+    font-size: 15px;
+    width: 250px;
+    height: 120px;
+    margin-top: 15px;
+    font-family: "Glegoo", serif;
+}
+
+.spyder p span {
+    font-style: italic;
+}
+
+.spyder h3 {
+    width: 160px;
+    height: 22px;
+    font-family: "Glegoo", serif;
+}
+
+.spyder h2 {
+    width: 160px;
+    height: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+}
+
+.name-products {
     width: 150px;
     height: 30px;
     position: absolute;
@@ -360,7 +438,22 @@ section img {
     font-family: "Glegoo", serif;
     font-size: 30px;
     text-decoration: underline;
+    font-weight: lighter;
     color: #020202;
-    
 }
 
+footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+    height: 10px;
+    margin: 0 auto;
+    right: 20px;
+}
