@@ -23,7 +23,7 @@ header {
 }
 
 .logo img {
-    width: 40%;
+    width: 80%;
     height: 10px;
     align-self: auto;
 }
@@ -80,7 +80,6 @@ menu a:hover {
 main {
     width: 100%;
 }
-
 section {
     width: 100%;
 }
@@ -329,6 +328,7 @@ section img {
     overflow: hidden;
     cursor: pointer;
     transition: .5s;
+    text-decoration: none;
 }
 
 .gt3:hover {
@@ -451,9 +451,12 @@ footer {
     align-items: center;
 }
 
-footer img {
+.footer-img {
     width: 100px;
     height: 10px;
-    margin: 0 auto;
-    right: 20px;
+    margin-left: 800px;
+    
+}
+.footer-img img{
+    width: 100%;
 }

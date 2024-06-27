@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porsche - A Feeling</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Glegoo:wght@400;700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
@@ -18,14 +19,18 @@
 
         <nav>
             <div class="logo">
-                <img src="assets/porsche-logo-branco.webp" alt="porsche-logo">
+                <a href="index.html">
+                    <img src="assets/porsche-logo-branco.webp" alt="porsche-logo"></a>
+                    
             </div>
             <div class="main-logo">
-                <img src="assets/porsche-logo-main.png" alt="porsche-logo-main">
+                <a href="index.html"><img src="assets/porsche-logo-main.png" alt="porsche-logo-main">
+                </a>
+                    
             </div>
             <menu>
                 <a href="">Turbo</a>
-                <a href="">GT3 RS</a>
+                <a href="gt3.html">GT3 RS</a>
                 <a href="">918 Spyder</a>
             </menu>
         </nav>
@@ -57,22 +62,22 @@
         <div class="galeria">
 
             <div class="thumbs">
-                <div class="thumb">
+                <div class="thumb" onclick="trocaImg('turboS-gallery.jpg')">
                     <img src="assets/turboS-gallery.jpg" alt="">
                 </div>
-                <div class="thumb">
-                    <img src="assets/918-gallery.jpg" alt="">
+                <div class="thumb" onclick="trocaImg('gallery-918.jpg')">
+                    <img src="assets/gallery-918.jpg" alt="">
                 </div>
-                <div class="thumb">
+                <div class="thumb" onclick="trocaImg('gt3-gallery.jpg')">
                     <img src="assets/gt3-gallery.jpg" alt="">
                 </div>
-                <div class="thumb">
+                <div class="thumb" onclick="trocaImg('all-cars.jpg')">
                     <img src="assets/all-cars.jpg" alt="">
                 </div>
             </div>
             <div class="large">
                 <div class="img-large">
-                    <img src="assets/turboS-gallery.jpg" alt="">
+                    <img src="assets/turboS-gallery.jpg" alt="" id="fotoGrande">
                 </div>
             </div>
         </div>
@@ -89,14 +94,16 @@
 
         </div>
         <div class="gt3">
-            <img src="assets/gt3-3.jpeg" alt="">
-            <h1>911 GT3 RS</h1>
-            <p>Da pista para as ruas, downforce extremo com máxima velocidade.</p>
-            <h3>Preço Estimado:</h3>
-            <h2>R$ 1.920.000</h2>
+            <a href="gt3.html">
+                <img src="assets/gt3-3.jpeg" alt="">
+                <h1>911 GT3 RS</h1>
+                <p>Da pista para as ruas, downforce extremo com máxima velocidade.</p>
+                <h3>Preço Estimado:</h3>
+                <h2>R$ 1.920.000</h2>
+            </a>
         </div>
         <div class="spyder">
-            <img src="assets/918-1.jpg" alt="">
+            <img src="assets/photo918.jpg" alt="">
             <h1>918 Spyder</h1>
             <p>O Hybrid da Porsche, mesclando um V8 junto de dois motores elétricos. Modernidade, isso é <span>Porsche</span>.</p>
             <h3>Preço Estimado:</h3>
@@ -104,8 +111,11 @@
         </div>
     </section>
     <footer>
-        &copy; 2024. Landing Page about Porsche. Projeto Educacional <br> Desenvolvido por Vinícius Duarte
-        <img src="assets/porsche-logo.webp" alt="">
+           &copy; 2024. Landing Page about Porsche. Projeto Educacional <br> Desenvolvido por Vinícius Duarte 
+           <div class="footer-img">
+                <img src="assets/porsche-logo.webp" alt="">
+           </div>
+            
     </footer>
 </body>
 
