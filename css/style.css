@@ -5,6 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: #020202;
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     height: 60px;
@@ -249,19 +254,20 @@ section img {
 
 #carros {
     width: 100%;
+    height: 600px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 70px;
     position: relative;
 }
 
-.turbo {
+.turbo a {
     width: 300px;
     height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
     overflow: hidden;
@@ -274,7 +280,7 @@ section img {
     box-shadow: 0px 0px 10px #020202;
 }
 
-.turbo img {
+.turbo a img {
     width: 90%;
     height: 170px;
     border-radius: 20px;
@@ -282,40 +288,39 @@ section img {
     margin-top: 20px;
 }
 
-.turbo h1 {
+.turbo a h1 {
     width: 140px;
     height: 30px;
     font-family: "Glegoo", serif;
 }
 
-.turbo p {
+.turbo a p {
     width: 200px;
     height: 100px;
     margin-top: 15px;
     font-family: "Glegoo", serif;
 }
 
-.turbo h3 {
+.turbo a h3 {
     width: 160px;
     height: 22px;
     font-family: "Glegoo", serif;
     margin-top: 20px;
 }
 
-.turbo h2 {
+.turbo a h2 {
     width: 160px;
     height: 30px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: lighter;
 }
 
-.gt3 {
+.gt3 a {
     width: 300px;
     height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
     overflow: hidden;
@@ -329,7 +334,7 @@ section img {
     box-shadow: 0px 0px 10px #020202;
 }
 
-.gt3 img {
+.gt3 a img {
     width: 90%;
     height: 170px;
     margin-top: 20px;
@@ -337,40 +342,39 @@ section img {
     box-shadow: 0px 0px 5px black;
 }
 
-.gt3 h1 {
+.gt3 a h1 {
     width: 140px;
     height: 30px;
     font-family: "Glegoo", serif;
 }
 
-.gt3 p {
+.gt3 a p {
     width: 200px;
     height: 100px;
     margin-top: 15px;
     font-family: "Glegoo", serif;
 }
 
-.gt3 h3 {
+.gt3 a h3 {
     width: 160px;
     height: 22px;
     font-family: "Glegoo", serif;
     margin-top: 20px;
 }
 
-.gt3 h2 {
+.gt3 a h2 {
     width: 160px;
     height: 30px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: lighter;
 }
 
-.spyder {
+.spyder a {
     width: 300px;
     height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
     border-radius: 25px;
     box-shadow: 0px 0px 5px black;
     overflow: hidden;
@@ -384,7 +388,7 @@ section img {
     box-shadow: 0px 0px 10px #020202;
 }
 
-.spyder img {
+.spyder a img {
     width: 90%;
     height: 170px;
     margin-top: 20px;
@@ -392,13 +396,13 @@ section img {
     box-shadow: 0px 0px 5px black;
 }
 
-.spyder h1 {
+.spyder a h1 {
     width: 140px;
     height: 30px;
     font-family: "Glegoo", serif;
 }
 
-.spyder p {
+.spyder a p {
     font-size: 15px;
     width: 250px;
     height: 120px;
@@ -406,17 +410,17 @@ section img {
     font-family: "Glegoo", serif;
 }
 
-.spyder p span {
+.spyder a p span {
     font-style: italic;
 }
 
-.spyder h3 {
+.spyder a h3 {
     width: 160px;
     height: 22px;
     font-family: "Glegoo", serif;
 }
 
-.spyder h2 {
+.spyder a h2 {
     width: 160px;
     height: 30px;
     font-family: "Bebas Neue", sans-serif;
@@ -511,14 +515,14 @@ footer {
     font-weight: bold;
 }
 
-.txt1 {
+.txt3 {
     width: 1366px;
     height: 350px;
     display: flex;
     align-items: center;
 }
 
-.txt1 img {
+.txt3 img {
     width: 520px;
     height: 300px;
     border-radius: 20px;
@@ -526,7 +530,7 @@ footer {
     margin-top: 40px;
 }
 
-.txt1 ul {
+.txt3 ul {
     width: 800px;
     height: 300px;
     display: flex;
@@ -535,14 +539,14 @@ footer {
     flex-direction: column;
 }
 
-.txt1 li {
+.txt3 li {
     width: 580px;
     height: 80px;
     font-size: 20px;
     margin-top: 40px;
 }
 
-.txt2 {
+.txt4 {
     width: 1366px;
     height: 300px;
     display: flex;
@@ -551,7 +555,7 @@ footer {
     gap: 200px;
 }
 
-.txt2 img {
+.txt4 img {
     width: 520px;
     height: 300px;
     border-radius: 20px;
@@ -559,7 +563,7 @@ footer {
     margin-top: 40px;
 }
 
-.txt2 h3 {
+.txt4 h3 {
     width: 500px;
     height: 300px;
     margin-top: 70px;
